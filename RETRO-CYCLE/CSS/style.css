@@ -1,0 +1,156 @@
+/* Reset and common styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.heading {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 42px;
+    color: #fff;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px 0;
+    border-top: 2px solid #e74c3c;
+    border-bottom: 2px solid #e74c3c;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #555;
+    border-radius: 8px;
+}
+
+/* Main content section styles */
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 40px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: relative;
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+    color: #444;
+}
+
+.text h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.text h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.order {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: white;
+    padding: 12px 28px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.order:hover {
+    background-color: #d63027;
+}
+
+.bicycle img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.color-box {
+    width: 80px;
+    height: 80px;
+    background-color: #e74c3c;
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    border-radius: 50%;
+    opacity: 0.2;
+}
+
+/* Social media icons styles */
+.icons {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.icons a {
+    text-decoration: none;
+    color: #444;
+    font-size: 24px;
+    margin: 15px 0;
+    transition: color 0.3s ease;
+}
+
+.icons a:hover {
+    color: #e74c3c;
+}
+
+/* Scroll hint styles */
+.scroll {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.scroll a {
+    text-decoration: none;
+    color: #444;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.scroll a:hover {
+    color: #e74c3c;
+}

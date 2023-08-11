@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Title of the page -->
+    <title>Home</title>
+
+    <!-- Link to the main stylesheet -->
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <!-- Including Remix icons for using various icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <!-- External fonts loaded from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Delius+Swash+Caps&family=Libre+Bodoni:wght@600&display=swap" rel="stylesheet">  
+</head>
+
+<body>
+
+    <!-- Header section with site title and navigation -->
+    <header>
+        <!-- Site title -->
+        <h1 class="heading">RetroCycle Bikes</h1>
+        
+        <!-- Main navigation -->
+        <ul class="navbar">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="index2.html">Products</a></li>
+          <li><a href="index3.html">About us</a></li>
+          <li><a href="index4.html">Contact us</a></li>
+        </ul>
+
+        <!-- Menu icon (For mobile navigation) -->
+        <div class="bx bx-menu" id="menu-icon" onclick="open"></div>
+    </header>
+
+    <!-- Main content section -->
+    <section class="content">
+        <!-- Introduction text content -->
+        <div class="text">
+            <h2>Welcome to RetroCycle Bikes!!</h2>
+            <h3>Discover a Timeless Journey into Retro Cycling with us:</h3>
+            <p>Step into the world of vintage cycling, where the past meets the future, 
+                and nostalgia becomes an experience like no other. At RetroCycle, 
+                we are passionate about preserving the golden era of cycling 
+                and providing a unique opportunity for cycling enthusiasts, collectors,
+                and curious minds to explore with our exclusive retro-style bicycles.</p>
+
+            <!-- Link to start exploring products -->
+            <a href="product.html" class="order"><i class="ri-play-fill"></i>Start Exploring</a>
+        </div>
+
+        <!-- Image of a bicycle -->
+        <div class="bicycle">
+            <img src="./IMG/P-1.png" alt="bicycle">
+        </div>
+
+        <!-- Color box -->
+        <div class="color-box"></div>
+    </section>  
+
+    <!-- Social media icons -->
+    <div class="icons">
+        <a href="#" class="yt"><i class="ri-youtube-line"></i></a>
+        <a href="#" class="insta"><i class="ri-instagram-line"></i></a>
+        <a href="#" class="twitter"><i class="ri-twitter-line"></i></a>
+    </div>
+
+    <!-- Scroll hint for users, indicating more content below -->
+    <div class="scroll">
+        <a href="#"><i class="ri-arrow-down-s-fill"></i></a>
+
+        <!-- JavaScript library for scroll reveal effects -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        
+        <!-- Custom JavaScript for additional functionalities -->
+        <script src="JS/mySrcipt.js"></script>
+    </div>
+
+</body>
+</html>
